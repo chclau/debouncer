@@ -27,7 +27,7 @@ package debounce_pack  is
 -- Size definitions
 ------------------------------------------------------------------------- 
   constant DEB_LEN		: natural := 32;			
-  constant DEB_LEN_W	: natural := integer(ceil(log2(real(DEB_LEN+1))));			
+  constant DEB_LEN_W	   : natural := integer(ceil(log2(real(DEB_LEN+1))));			
   constant DEB_THRES_LO	: natural := DEB_LEN/10;			
   constant DEB_THRES_HI	: natural := 9*DEB_LEN/10;			
   
